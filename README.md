@@ -1,53 +1,50 @@
 # Arc-Net
 
-Arc-Net es una aplicación de escritorio multiplataforma diseñada para centralizar la administración y supervisión de un ecosistema personal o técnico compuesto por múltiples dispositivos, servidores, procesos y servicios distribuidos. Su finalidad es proporcionar una interfaz unificada para ejecutar acciones de control, monitoreo y gestión sin depender de múltiples herramientas aisladas.
+Arc-Net is a cross-platform desktop application designed to centralize the administration and monitoring of a personal or technical ecosystem composed of multiple devices, servers, processes, and distributed services. The purpose of the application is to provide a unified interface for performing control, supervision, and management tasks without relying on isolated or fragmented tools.
 
-## Propósito del Proyecto
+## Project Purpose
 
-El objetivo principal de Arc-Net es ofrecer un centro de control integral que permita a un usuario administrar servicios locales y remotos, supervisar el estado de dispositivos conectados, gestionar contenedores, interactuar con repositorios Git y acceder a almacenamiento en red, todo desde una plataforma coherente y extensible.
+Arc-Net aims to deliver a comprehensive control center that enables users to manage local and remote services, monitor device status, operate Docker containers, interact with Git repositories, and access network-based storage from a single, coherent, and extensible platform.
 
-## Alcance General
+## Scope Overview
 
-Arc-Net proporciona funcionalidades orientadas a:
+The scope of Arc-Net includes:
 
-- Supervisión de dispositivos y recursos.
-- Control de servicios remotos (Docker, APIs locales, procesos del sistema).
-- Gestión de archivos y almacenamiento en red.
-- Sincronización de datos entre máquinas.
-- Administración de repositorios Git.
-- Registro y consulta de eventos del ecosistema.
-- Integración con herramientas internas o externas mediante API.
+- Monitoring of devices and system resources.
+- Remote service control (Docker, local APIs, system processes).
+- Network storage access and file management.
+- Data synchronization across devices.
+- Git repository administration (creation, cloning, branching, and common operations).
+- Event logging and auditing.
+- Integration with external systems through APIs.
 
-El alcance está diseñado para crecer progresivamente, permitiendo agregar nuevos módulos según necesidad técnica o evolutiva.
+The system is designed to evolve progressively, allowing expansion into new modules as needed.
 
-## Arquitectura Tecnológica
+## Technology Stack
 
-El proyecto se construirá utilizando:
+Arc-Net is developed using:
 
-- Electron (aplicación de escritorio).
-- React (interfaz de usuario).
-- Flask (backend modular y desacoplado).
-- Comunicación mediante API REST.
-- Integración con servicios externos: SSH, Docker Remote API, Syncthing REST, Git.
+- **Electron** for the desktop environment.  
+- **React** for the user interface.  
+- **Flask** for a modular, decoupled backend.  
+- **REST API** communication.  
+- Integration with external services such as SSH, Docker Remote API, Syncthing REST, and Git.
 
-Esta arquitectura permite despliegue multiplataforma, separación clara entre frontend y backend, escalabilidad y capacidad de migración futura.
+This architecture provides cross-platform deployment, clear separation between frontend and backend, maintainability, and long-term scalability.
 
-## Características Planeadas
+## Planned Features
 
-- Panel general de ecosistema.
-- Visualización de estado de dispositivos y recursos.
-- Gestión de contenedores Docker.
-- Control de servicios remotos.
-- Exploración y administración de archivos en red.
-- Módulo de sincronización entre dispositivos.
-- Registro y auditoría de eventos.
-- Gestión de repositorios Git: creación, clonación, branches y operaciones comunes.
-- Configuración avanzada para integración con red y servicios.
+- Global ecosystem dashboard.
+- Device and resource status visualization.
+- Docker container management.
+- Remote service and process control.
+- Network storage file explorer.
+- Device synchronization module.
+- Event logging and auditing.
+- Git repository management.
+- Advanced configuration options.
 
-## Estado Actual del Proyecto
 
-Arc-Net se encuentra en fase inicial de planificación bajo metodología xp
-
-## Licencia
+## License
 
 MIT License.
