@@ -46,16 +46,7 @@ Esta arquitectura permite despliegue multiplataforma, separación clara entre fr
 
 ## Estado Actual del Proyecto
 
-Arc-Net se encuentra en fase inicial de planificación bajo metodología Scrum.  
-Se han definido:
-
-- Visión del proyecto.  
-- Interesados.  
-- Equipo Scrum.  
-- Personajes y épicas principales.  
-- Backlog priorizado.  
-
-Se procederá con la creación del plan de liberación y la inicialización de la estructura base del repositorio.
+Arc-Net se encuentra en fase inicial de planificación bajo metodología xp
 
 ## Licencia
 
